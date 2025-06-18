@@ -1,0 +1,95 @@
+{
+  "app": {
+    "title": "Professional Image Batch Processor",
+    "version": "2.0.0",
+    "description": "Production-ready batch processing with smart optimization, privacy protection, and AI training deterrence",
+    "author": "Image Processing Team",
+    "license": "MIT"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 7861,
+    "debug": false,
+    "auto_reload": false,
+    "share": false,
+    "inbrowser": true,
+    "favicon_path": null
+  },
+  "processing": {
+    "max_width": 1920,
+    "max_height": 1080,
+    "output_format": "auto",
+    "jpeg_quality": 90,
+    "png_compression": 6,
+    "webp_quality": 90,
+    "preserve_structure": true,
+    "preserve_transparency": true,
+    "batch_size": 50,
+    "memory_limit_mb": 1024
+  },
+  "features": {
+    "resize": {
+      "enabled": true,
+      "method": "lanczos",
+      "maintain_quality": true,
+      "auto_sharpen": true
+    },
+    "metadata": {
+      "strip_enabled": true,
+      "mode": "complete",
+      "preserve_color_profile": true,
+      "preserve_copyright": false
+    },
+    "protection": {
+      "enabled": false,
+      "method": "perlin",
+      "intensity": 0.05,
+      "protection_level": "medium"
+    },
+    "watermark": {
+      "enabled": false,
+      "position": "bottom-right",
+      "opacity": 0.3,
+      "font_color": "white",
+      "auto_size": true
+    },
+    "enhancement": {
+      "enabled": false,
+      "level": "subtle"
+    }
+  },
+  "ui": {
+    "theme": "soft",
+    "show_advanced": false,
+    "auto_refresh": true,
+    "preview_count": 4,
+    "custom_css": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "image_processor.log",
+    "max_size_mb": 10,
+    "backup_count": 3,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "security": {
+    "validate_file_types": true,
+    "max_file_size_mb": 100,
+    "scan_for_malware": false,
+    "sanitize_filenames": true
+  },
+  "performance": {
+    "max_workers": 4,
+    "chunk_size": 10,
+    "enable_caching": true,
+    "cache_size_mb": 256,
+    "optimize_memory": true
+  },
+  "output": {
+    "create_backups": false,
+    "preserve_timestamps": true,
+    "generate_reports": true,
+    "report_formats": ["csv", "json"],
+    "compression_stats": true
+  }
+} 

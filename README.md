@@ -1,6 +1,24 @@
-# 🖼️ Advanced Image Batch Processor for Web
+# 🎨 Professional Image Batch Processor
 
-A professional-grade Gradio application for batch processing images with comprehensive features including smart resizing, metadata privacy protection, AI training protection, watermarking, auto-enhancement, and detailed analytics.
+A production-ready Gradio application for professional image batch processing with enterprise-level features including smart resizing, metadata privacy protection, AI training deterrence, watermarking, auto-enhancement, platform-specific optimization, and comprehensive analytics.
+
+## 🚀 Quick Launch Options
+
+### 🌟 Production App (Recommended)
+```bash
+python run_app.py
+```
+- **Port**: 7861 (avoids conflicts)
+- **Features**: Enhanced UI, better error handling, professional interface
+- **Status**: Production-ready with comprehensive logging
+
+### 🔧 Development Version
+```bash
+python image_processor.py  # Original comprehensive version
+python run.py              # Basic launcher
+```
+
+---
 
 ## ✨ Key Features
 
