@@ -1,0 +1,31 @@
+Processing Report Summary
+Generated:,2025-06-17T22:00:19.751137
+""
+Metric,Value
+Total Files,3
+Successful,2
+Failed,1
+Success Rate,66.66666666666666
+Processing Time Seconds,0.11
+Avg Time Per File,0.04
+""
+File Size Analysis
+Original Total Mb,4.3
+Final Total Mb,2.1
+Space Saved Mb,2.2
+Space Saved Percent,51.16
+Avg Original Size Mb,2.15
+Avg Final Size Mb,1.05
+""
+Processing Statistics
+Metadata Stripped,2
+Noise Protection Applied,1
+Images Resized,2
+Watermarks Added,1
+Avg Quality Psnr,45.2
+""
+Detailed File Results
+Filename,Success,Original Size (MB),Final Size (MB),Message
+image1.jpg,True,2.5,1.2,
+image2.png,True,1.8,0.9,
+image3.jpg,False,0,0,
